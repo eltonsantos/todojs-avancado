@@ -70,7 +70,7 @@ input, select {
 }
 
 #todo-form p, #edit-form p {
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0rem;
   font-weight: bold;
 }
 
