@@ -7,9 +7,11 @@
 }
 
 body {
-  background-image: url(../img/bg.jpg);
-  background-position: center;
-  background-size: cover;
+  background: url(../img/bg.jpeg);
+  background-color: #FDE4E0;
+  background-repeat:no-repeat;
+  background-position: 20% center;
+  min-height:100%;
 }
 
 button {
@@ -145,11 +147,17 @@ input, select {
 }
 
 .done {
-  background-color: #395169;
+  background-color: #FFA053;
 }
 
 .done h3 {
   color: #fff;
   text-decoration: line-through;
   font-style: italic;
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    background-position: -2rem 5rem;
+  }
 }
