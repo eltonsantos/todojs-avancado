@@ -59,6 +59,10 @@ input, select {
   border-radius: 15px;
 }
 
+.sign {
+  text-align: center;
+}
+
 .todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
